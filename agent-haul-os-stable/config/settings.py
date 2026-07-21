@@ -10,10 +10,10 @@ from typing import Dict, List, Any
 # ---------------------------------------------------------------------------
 # General Application Settings
 # ---------------------------------------------------------------------------
-APP_NAME = "Agent Haul OS"
+APP_NAME = "HaulX"
 APP_VERSION = "1.0.0"
 APP_BUILD = "Stable"
-APP_CODE = "AGENT-HAUL-OS-STABLE"
+APP_CODE = "HAULX-STABLE"
 
 # Network / Request timeouts (seconds)
 REQUEST_TIMEOUT = 15

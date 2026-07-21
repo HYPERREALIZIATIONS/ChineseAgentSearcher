@@ -94,11 +94,11 @@ def clean_build_dirs():
 def get_executable_name() -> str:
     system = platform.system()
     if system == "Windows":
-        return "AgentHaulOS.exe"
+        return "HaulX.exe"
     elif system == "Darwin":
-        return "AgentHaulOS.app"
+        return "HaulX.app"
     else:
-        return "AgentHaulOS"
+        return "HaulX"
 
 
 def get_pyinstaller_mode() -> list:

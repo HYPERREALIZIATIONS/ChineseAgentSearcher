@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="agent-haul-os-stable",
+    name="haulx",
     version="1.0.0",
-    description="Modular portable desktop GUI for multi-forwarder reverse-search and freight calculation",
+    description="HaulX — Modular portable desktop GUI for multi-forwarder reverse-search and freight calculation",
     author="GitReverse Community",
     author_email="community@gitreverse.dev",
-    url="https://github.com/gitreverse/agent-haul-os-stable",
+    url="https://github.com/gitreverse/haulx",
     packages=find_packages(),
     include_package_data=True,
     python_requires=">=3.9",
@@ -19,7 +19,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "agent-haul-os=main_desktop:main",
+            "haulx=main_desktop:main",
         ],
     },
     classifiers=[
@@ -36,7 +36,7 @@ setup(
     ],
     keywords="shopping agent freight calculator reverse-search spreadsheet parser customtkinter",
     project_urls={
-        "Bug Reports": "https://github.com/gitreverse/agent-haul-os-stable/issues",
-        "Source": "https://github.com/gitreverse/agent-haul-os-stable",
+        "Bug Reports": "https://github.com/gitreverse/haulx/issues",
+        "Source": "https://github.com/gitreverse/haulx",
     },
 )

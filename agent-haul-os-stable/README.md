@@ -1,4 +1,4 @@
-# Agent Haul OS — Stable Modular Desktop Application
+# HaulX — Stable Modular Desktop Application
 
 ---
 
@@ -21,7 +21,7 @@
 ### 1. Spreadsheet Fragmentation
 The shopping-agent community distributes product catalogs across hundreds of unorganized, slow, and often deprecated Google Sheets. Finding a specific fashion item (e.g., "BAPE shark hoodie size L green") requires manually opening dozens of spreadsheets, scrolling through thousands of rows, and cross-referencing prices and QC images.
 
-**Agent Haul OS** aggregates public community spreadsheets into a unified, in-memory search index. Users type a keyword once and instantly receive categorized, brand-tagged results with CNY pricing and QC photo references — no more tab-switching marathons.
+**HaulX** aggregates public community spreadsheets into a unified, in-memory search index. Users type a keyword once and instantly receive categorized, brand-tagged results with CNY pricing and QC photo references — no more tab-switching marathons.
 
 ### 2. Freight Blindness
 Before submitting a haul, buyers must compare:
@@ -32,14 +32,14 @@ Before submitting a haul, buyers must compare:
 
 Freight costs can sometimes **exceed the item price itself**, making blind purchases financially dangerous. Yet no unified tool exists to compute these values side-by-side in real time.
 
-**Agent Haul OS** includes a live freight matrix that accepts package dimensions, destination country, and agent markup rules, then instantly calculates and compares total landed cost across all four major agents.
+**HaulX** includes a live freight matrix that accepts package dimensions, destination country, and agent markup rules, then instantly calculates and compares total landed cost across all four major agents.
 
 ---
 
 ## Project Architecture
 
 ```
-agent-haul-os-stable/
+haulx/
 ├── README.md                  # This document
 ├── requirements.txt           # Python dependencies
 ├── setup.py                   # Package configuration
@@ -105,9 +105,9 @@ To compile the entire modular project into a single portable executable (`.exe` 
 4. The resulting portable build will be placed in the `dist/` directory.
 
 **Platform Notes:**
-- **Windows:** Run `compile_portable.py` from a Command Prompt or PowerShell with Administrator privileges if your Python installation is system-wide. Output will be `dist/AgentHaulOS.exe`.
-- **macOS:** Run from Terminal. You may need to allow the binary in **System Settings → Privacy & Security** after first launch. Output will be `dist/AgentHaulOS.app`.
-- **Linux:** Run from shell. Output will be `dist/AgentHaulOS`.
+- **Windows:** Run `compile_portable.py` from a Command Prompt or PowerShell with Administrator privileges if your Python installation is system-wide. Output will be `dist/HaulX.exe`.
+- **macOS:** Run from Terminal. You may need to allow the binary in **System Settings → Privacy & Security** after first launch. Output will be `dist/HaulX.app`.
+- **Linux:** Run from shell. Output will be `dist/HaulX`.
 
 ---
 
@@ -176,4 +176,4 @@ Released under the MIT License. See `LICENSE` file for full text.
 
 ---
 
-*Last updated: 2026-07-21 | Project Code: AGENT-HAUL-OS-STABLE | Release: v1.0.0 Stable*
+*Last updated: 2026-07-21 | Project Code: HAULX-STABLE | Release: v1.0.0 Stable*
