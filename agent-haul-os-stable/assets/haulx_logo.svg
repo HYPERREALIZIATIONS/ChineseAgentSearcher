@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6aa5"/>
+      <stop offset="100%" stop-color="#144870"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d0d8e0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="248" fill="url(#bg)"/>
+
+  <!-- Outer ring accent -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.15"/>
+
+  <!-- Stylized shipping box (isometric) -->
+  <g transform="translate(256, 190)">
+    <!-- Box body -->
+    <path d="M -70 40 L 0 70 L 70 40 L 70 -20 L 0 -50 L -70 -20 Z"
+          fill="url(#boxGrad)" stroke="#144870" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Box top face -->
+    <path d="M -70 -20 L 0 -50 L 0 -90 L -70 -60 Z"
+          fill="#ffffff" stroke="#144870" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Box right face -->
+    <path d="M 0 -50 L 70 -20 L 70 40 L 0 70 L 0 -50 Z"
+          fill="#e8eef3" stroke="#144870" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Speed arrow through box -->
+    <path d="M -30 10 L 40 -20 L 40 -45 L 70 -20 L 40 5 L 40 30 Z"
+          fill="#1f6aa5" opacity="0.95"/>
+  </g>
+
+  <!-- Brand text -->
+  <text x="256" y="340"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="72"
+        font-weight="800"
+        text-anchor="middle"
+        fill="#ffffff"
+        letter-spacing="2">HaulX</text>
+
+  <!-- Tagline -->
+  <text x="256" y="380"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="22"
+        font-weight="600"
+        text-anchor="middle"
+        fill="#a0c4e8"
+        letter-spacing="4">HAUL FASTER</text>
+</svg>
